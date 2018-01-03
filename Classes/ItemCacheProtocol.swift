@@ -14,22 +14,4 @@ public protocol ItemCacheProtocol {
     init?(data:Data)
 }
 
-/*
-extension UIImage:ItemCacheProtocol {
-    func toData() -> Data? {
-        guard let data = UIImagePNGRepresentation(self) else {
-            return nil
-        }
-        return data
-    }
-}*/
-
-//extension String:ItemCacheProtocol {
-//    public init?(data:Data) {
-//        self.init(data:data, encoding: String.Encoding.utf8)
-//    }
-//    public func toData() -> Data? {
-//        return self.toData()
-//    }
-//}
 
