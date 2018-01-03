@@ -14,7 +14,7 @@ public class LRUFileCache<Key:Hashable,Value:ItemCacheProtocol>{
     
     private let fileCache:FileCache<Key, Value>
     
-    typealias SizeOfValueFunction = (Value) -> (Double)
+    public typealias SizeOfValueFunction = (Value) -> (Double)
     
     private var sizeOfValueFunction:SizeOfValueFunction
     
