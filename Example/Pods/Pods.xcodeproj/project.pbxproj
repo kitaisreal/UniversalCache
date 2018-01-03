@@ -11,7 +11,14 @@
 		35E7A85515483DA7391336FEF3EA2F1C /* Pods-UniversalCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A239F0132E8743FF064749B280992FE /* Pods-UniversalCache_Tests-dummy.m */; };
 		39D9404349C1F9843EE7E8C35E7E67DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		447B0C5CB72A8D33A236D14564A529F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		480661D41FFCFC6D004DDE5A /* testCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661D31FFCFC6D004DDE5A /* testCache.swift */; };
+		480661D81FFCFDAC004DDE5A /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661D71FFCFDAC004DDE5A /* LRUCache.swift */; };
+		480661DF1FFCFDC6004DDE5A /* FileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661D91FFCFDC5004DDE5A /* FileCache.swift */; };
+		480661E01FFCFDC6004DDE5A /* FileCacheConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661DA1FFCFDC5004DDE5A /* FileCacheConstants.swift */; };
+		480661E11FFCFDC6004DDE5A /* FileJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661DB1FFCFDC6004DDE5A /* FileJournal.swift */; };
+		480661E21FFCFDC6004DDE5A /* LRUFileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661DC1FFCFDC6004DDE5A /* LRUFileCache.swift */; };
+		480661E31FFCFDC6004DDE5A /* FileCacheDestinationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661DD1FFCFDC6004DDE5A /* FileCacheDestinationEnum.swift */; };
+		480661E41FFCFDC6004DDE5A /* ItemCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661DE1FFCFDC6004DDE5A /* ItemCacheProtocol.swift */; };
+		480661E71FFCFDDC004DDE5A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480661E61FFCFDDC004DDE5A /* Queue.swift */; };
 		836D373E2BB7A4AE9B197DC4EDAB85FA /* UniversalCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 547971E006CA53F331768F5155CE9C07 /* UniversalCache-dummy.m */; };
 		DB99D72CE59137B0B525C21C31AEB774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E37A898F0BDFE80F876A1188DB08555B /* UniversalCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A44D92F4A7684355612D7DBC639A799 /* UniversalCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +44,14 @@
 		3A239F0132E8743FF064749B280992FE /* Pods-UniversalCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalCache_Tests-dummy.m"; sourceTree = "<group>"; };
 		413EE0D522F28B019D356E69848DEA27 /* Pods-UniversalCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UniversalCache_Example.modulemap"; sourceTree = "<group>"; };
 		42BE0B33188CD723B6C5B82CED611661 /* UniversalCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniversalCache.xcconfig; sourceTree = "<group>"; };
-		480661D31FFCFC6D004DDE5A /* testCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCache.swift; sourceTree = "<group>"; };
+		480661D71FFCFDAC004DDE5A /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		480661D91FFCFDC5004DDE5A /* FileCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCache.swift; sourceTree = "<group>"; };
+		480661DA1FFCFDC5004DDE5A /* FileCacheConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCacheConstants.swift; sourceTree = "<group>"; };
+		480661DB1FFCFDC6004DDE5A /* FileJournal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileJournal.swift; sourceTree = "<group>"; };
+		480661DC1FFCFDC6004DDE5A /* LRUFileCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUFileCache.swift; sourceTree = "<group>"; };
+		480661DD1FFCFDC6004DDE5A /* FileCacheDestinationEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCacheDestinationEnum.swift; sourceTree = "<group>"; };
+		480661DE1FFCFDC6004DDE5A /* ItemCacheProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCacheProtocol.swift; sourceTree = "<group>"; };
+		480661E61FFCFDDC004DDE5A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		4B97996D0A6715F992C59A1857844EE6 /* Pods-UniversalCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C620D0CEC13D748366B6D988FD0936F /* UniversalCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UniversalCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F16D13E1BA9D34F7FA2119D00C69F17 /* Pods-UniversalCache_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalCache_Example-dummy.m"; sourceTree = "<group>"; };
@@ -153,7 +167,14 @@
 		480661D51FFCFCAC004DDE5A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				480661D31FFCFC6D004DDE5A /* testCache.swift */,
+				480661E61FFCFDDC004DDE5A /* Queue.swift */,
+				480661D71FFCFDAC004DDE5A /* LRUCache.swift */,
+				480661D91FFCFDC5004DDE5A /* FileCache.swift */,
+				480661DA1FFCFDC5004DDE5A /* FileCacheConstants.swift */,
+				480661DD1FFCFDC6004DDE5A /* FileCacheDestinationEnum.swift */,
+				480661DB1FFCFDC6004DDE5A /* FileJournal.swift */,
+				480661DE1FFCFDC6004DDE5A /* ItemCacheProtocol.swift */,
+				480661DC1FFCFDC6004DDE5A /* LRUFileCache.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -350,8 +371,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				480661D41FFCFC6D004DDE5A /* testCache.swift in Sources */,
+				480661D81FFCFDAC004DDE5A /* LRUCache.swift in Sources */,
+				480661E01FFCFDC6004DDE5A /* FileCacheConstants.swift in Sources */,
+				480661E21FFCFDC6004DDE5A /* LRUFileCache.swift in Sources */,
+				480661E31FFCFDC6004DDE5A /* FileCacheDestinationEnum.swift in Sources */,
+				480661E71FFCFDDC004DDE5A /* Queue.swift in Sources */,
+				480661DF1FFCFDC6004DDE5A /* FileCache.swift in Sources */,
 				2268AD918385BA9B3FE2F3437A24CACB /* Pods-UniversalCache_Example-dummy.m in Sources */,
+				480661E41FFCFDC6004DDE5A /* ItemCacheProtocol.swift in Sources */,
+				480661E11FFCFDC6004DDE5A /* FileJournal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
