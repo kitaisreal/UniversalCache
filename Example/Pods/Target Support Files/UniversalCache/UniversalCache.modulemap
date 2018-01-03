@@ -1,0 +1,6 @@
+framework module UniversalCache {
+  umbrella header "UniversalCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

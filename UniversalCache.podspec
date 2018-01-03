@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UniversalCache'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UniversalCache.'
+  s.summary          = 'IOS Generic LRU Memory and File Cache'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+IOS Generic LRU Memory and File Cache. Easy to use.
                        DESC
 
   s.homepage         = 'https://github.com/kitaisreal/UniversalCache'
@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'UniversalCache/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'UniversalCache' => ['UniversalCache/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.public_header_files = 'UniversalCache/Classes/**/*.h'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
