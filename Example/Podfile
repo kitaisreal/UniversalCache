@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UniversalCache_Example' do
+  pod 'UniversalCache', :path => '../'
+
+  target 'UniversalCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
