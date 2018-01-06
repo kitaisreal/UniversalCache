@@ -1,8 +1,8 @@
 {
   "name": "UniversalCache",
   "version": "0.1.0",
-  "summary": "A short description of UniversalCache.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "IOS Generic LRU Memory and File Cache",
+  "description": "IOS Generic LRU Memory and File Cache. Easy to use.",
   "homepage": "https://github.com/kitaisreal/UniversalCache",
   "license": {
     "type": "MIT",
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "UniversalCache/Classes/**/*"
+  "source_files": "Classes/**/*"
 }
